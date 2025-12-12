@@ -34,7 +34,3 @@
 - Containerized ML systems and cloud-based deployment  
 
 ---
-
-<p align="center">
-  🚀 *Always building, experimenting, and learning.*  
-</p>
