@@ -6,49 +6,51 @@
 ---
 
 ## 🚀 What I Do
-- Build **speech-processing pipelines** (TTS, STT, VAD, diarization)  
-- Develop **LLM-powered tools** and caching systems
-- Work with **deep learning**, model evaluation, and deployment workflows  
-- Explore retrieval systems, embeddings, and scalable ML architectures  
+
+I'm passionate about building production ML systems with a focus on **multimodal architectures**, **speech processing**, and **LLM infrastructure**:
+
+- Design and train **multimodal fusion models** for emotion recognition and speech analysis
+- Build **speech-processing pipelines** (TTS, STT, VAD, diarization) for Arabic and English
+- Develop **LLM-powered tools** and semantic caching systems to optimize API costs
+- Deploy **containerized ML systems** with Docker, FastAPI, and vector databases
 
 ---
 
 ## 🧰 Tech Stack
+
 **Languages:** Python, Rust  
-**AI/ML:** PyTorch, HuggingFace, Scikit-learn  
-**Speech & NLP:** TTS, ASR, VAD, Diarization, AraBERT  
-**Backend & Infra:** FastAPI, Docker, Redis, Qdrant  
-**Data:** SQL, PostgreSQL, MongoDB  
+**ML/DL:** PyTorch, HuggingFace Transformers, Scikit-learn, PEFT (LoRA)  
+**Speech & NLP:** Wav2Vec2, AraBERT, TTS/STT pipelines, VAD, Speaker Diarization  
+**Infrastructure:** FastAPI, Docker, Redis, Qdrant, PostgreSQL  
+**Tools:** Git, Linux, Weights & Biases, Jupyter
 
 ---
 
-## 📌 Highlighted Projects
+## 📌 Featured Work
 
 ### [MultiFusion-Core](https://github.com/AmmarHassona/multifusion-core)
-🎓 **Bachelor's Thesis** – Multimodal emotion recognition for Egyptian Arabic (Python, PyTorch)
-- 5 fusion strategies (early, late, hybrid, attention, transformer) achieving **61.84% accuracy**
-- Semi-supervised learning with contrastive pre-training on 5K+ unlabeled samples
-- LoRA-based parameter-efficient fine-tuning reducing trainable params by 90%
-- Production pipeline: data preprocessing, training, evaluation, ablation studies
+🎓 **Bachelor's Thesis** – Multimodal emotion recognition for Egyptian Arabic
+- Implemented and evaluated **5 fusion architectures** (early, late, hybrid, attention, transformer) achieving **61.84% test accuracy**
+- Designed **semi-supervised pipeline** with contrastive pre-training on 5,000+ unlabeled samples
+- Applied **LoRA** for parameter-efficient fine-tuning, reducing trainable parameters by 90%
+- Built end-to-end pipeline: Arabic text preprocessing, audio/video feature extraction, training, evaluation
+
+**Tech:** PyTorch, HuggingFace, AraBERT, Wav2Vec2, Swin Transformer, Weights & Biases
+
+---
 
 ### [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy)
-Semantic caching layer for LLM APIs (Rust, Python, Qdrant, Redis)
-- 2-tier caching: exact match + semantic similarity search
-- Reduces API costs through intelligent response reuse
-- Docker Compose deployment with live metrics dashboard
+High-performance semantic caching proxy for LLM APIs
+- **2-tier caching architecture**: Redis (exact match) + Qdrant (semantic similarity)
+- Reduces API costs through intelligent response reuse and embedding-based retrieval
+- Real-time **metrics dashboard** tracking cache hit rates, token usage, and cost savings
+- Docker Compose deployment with health checks and monitoring
 
-### IntelliTopic
-Multi-modal topic generation platform powered by LLMs  
-
-### Finance Tracker
-Budget insights & spending analytics  
+**Tech:** Rust (Axum, Tokio), Python (FastAPI), Redis, Qdrant, Docker
 
 ---
 
-## 📈 Current Focus
-- **Multimodal ML systems** and fusion architectures  
-- Advanced **speech AI** workflows for Egyptian Arabic
-- **LLM integrations** for retrieval, summarization, and automation  
-- Containerized ML systems and cloud-based deployment  
+### Other Projects
 
----
+**[IntelliTopic](https://github.com/AmmarHassona/IntelliTopic)** – Multi-modal topic generation platform powered by LLMs  
+**Finance Tracker** – Personal finance analytics with spending insights and visualizations
