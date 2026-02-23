@@ -48,9 +48,16 @@ High-performance semantic caching proxy for LLM APIs
 
 **Tech:** Rust (Axum, Tokio), Python (FastAPI), Redis, Qdrant, Docker
 
+### [TEN-VAD Realtime](https://github.com/AmmarHassona/ten-vad-realtime)
+Real-time speech segmentation and WebSocket event streaming built on TenVAD
+- Extended TenVAD with **automatic speech segmentation** and a configurable silence/merge window
+- Emits structured **WebSocket events** (`speech_start`, `segment_saved`, `merged`) for downstream integration
+- Saves and merges raw WAV segments with full timestamp logging
+
+**Tech:** Python, TenVAD, sounddevice, websockets
+
 ---
 
 ### Other Projects
 
-**[IntelliTopic](https://github.com/AmmarHassona/IntelliTopic)** – Multi-modal topic generation platform powered by LLMs  
-**Finance Tracker** – Personal finance analytics with spending insights and visualizations
+**[IntelliTopic](https://github.com/AmmarHassona/IntelliTopic)** – Multi-modal topic generation platform powered by LLMs
