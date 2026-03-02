@@ -28,6 +28,17 @@ I'm passionate about building production ML systems with a focus on **multimodal
 
 ## 📌 Featured Work
 
+### [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy)
+High-performance semantic caching proxy for LLM APIs
+- **2-tier caching architecture**: Redis (exact match) + Qdrant (semantic similarity)
+- Reduces API costs through intelligent response reuse and embedding-based retrieval
+- Real-time **metrics dashboard** tracking cache hit rates, token usage, and cost savings
+- Docker Compose deployment with health checks and monitoring
+
+**Tech:** Rust (Axum, Tokio), Python (FastAPI), Redis, Qdrant, Docker
+
+---
+
 ### [MultiFusion-Core](https://github.com/AmmarHassona/multifusion-core)
 🎓 **Bachelor's Thesis** – Multimodal emotion recognition for Egyptian Arabic
 - Implemented and evaluated **5 fusion architectures** (early, late, hybrid, attention, transformer) achieving **61.84% test accuracy**
@@ -39,14 +50,16 @@ I'm passionate about building production ML systems with a focus on **multimodal
 
 ---
 
-### [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy)
-High-performance semantic caching proxy for LLM APIs
-- **2-tier caching architecture**: Redis (exact match) + Qdrant (semantic similarity)
-- Reduces API costs through intelligent response reuse and embedding-based retrieval
-- Real-time **metrics dashboard** tracking cache hit rates, token usage, and cost savings
-- Docker Compose deployment with health checks and monitoring
+### [Orbis](https://github.com/AmmarHassona/orbis)                                                                                                   
+Personal AI chatbot with RAG, web search, and multi-mode conversations
+- Built full-stack app with **streaming chat** (SSE), **session management**, and 5 specialized modes (Health, Fitness, Mental, Study, General)      
+- Implemented **RAG pipeline** with ChromaDB and HuggingFace embeddings — users upload documents (PDF, DOCX, TXT) as context                       
+- Integrated **real-time web search** via Tavily API and profile-aware prompting using stored health data
+- Designed REST API with FastAPI including auth, document management, analytics, and message search
 
-**Tech:** Rust (Axum, Tokio), Python (FastAPI), Redis, Qdrant, Docker
+**Tech:** Next.js, TypeScript, FastAPI, Groq (LLaMA 3.3), Supabase, ChromaDB, Tailwind CSS
+
+---
 
 ### [TEN-VAD Realtime](https://github.com/AmmarHassona/ten-vad-realtime)
 Real-time speech segmentation and WebSocket event streaming built on TenVAD
