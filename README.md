@@ -3,8 +3,6 @@
   🧠 AI & Data Science • ⚙️ ML Engineering  
 </p>
 
----
-
 ## 🚀 What I Do
 
 I'm passionate about building production ML systems with a focus on **multimodal architectures**, **speech processing**, and **LLM infrastructure**:
@@ -13,6 +11,7 @@ I'm passionate about building production ML systems with a focus on **multimodal
 - Build **speech-processing pipelines** (TTS, STT, VAD, diarization) for Arabic and English
 - Develop **LLM-powered tools** and semantic caching systems to optimize API costs
 - Deploy **containerized ML systems** with Docker, FastAPI, and vector databases
+- Implement **LLM inference optimization** techniques from research papers (speculative decoding, caching)
 
 ---
 
@@ -21,7 +20,7 @@ I'm passionate about building production ML systems with a focus on **multimodal
 **Languages:** Python, Rust  
 **ML/DL:** PyTorch, HuggingFace Transformers, Scikit-learn, PEFT (LoRA)  
 **Speech & NLP:** Wav2Vec2, AraBERT, TTS/STT pipelines, VAD, Speaker Diarization  
-**Infrastructure:** FastAPI, Docker, Redis, Qdrant, PostgreSQL  
+**Infrastructure:** FastAPI, Docker, Redis, Qdrant, PostgreSQL, AWS (EC2, SageMaker, Lambda)
 **Tools:** Git, Linux, Weights & Biases, Jupyter
 
 ---
@@ -50,6 +49,16 @@ High-performance semantic caching proxy for LLM APIs
 
 ---
 
+### [Speculative Decoding from Scratch](https://github.com/AmmarHassona/speculative-decoding-from-scratch)
+From-scratch implementation of speculative decoding based on Leviathan et al. (2022)
+- Implemented probabilistic rejection sampling and residual resampling with no existing libraries
+- Benchmarked across 3 model pairs and 4 prompt types — acceptance rates of 25–84% confirm correct implementation
+- k ablation study shows theoretical optimum at k=4; back-of-envelope analysis projects 1.76–2.21x speedup at production-scale speed ratios
+
+**Tech:** Python, PyTorch, HuggingFace Transformers
+
+---
+
 ### [Orbis](https://github.com/AmmarHassona/orbis)                                                                                                   
 Personal AI chatbot with RAG, web search, and multi-mode conversations
 - Built full-stack app with **streaming chat** (SSE), **session management**, and 5 specialized modes (Health, Fitness, Mental, Study, General)      
@@ -70,7 +79,3 @@ Real-time speech segmentation and WebSocket event streaming built on TenVAD
 **Tech:** Python, TenVAD, sounddevice, websockets
 
 ---
-
-### Other Projects
-
-**[IntelliTopic](https://github.com/AmmarHassona/IntelliTopic)** – Multi-modal topic generation platform powered by LLMs
