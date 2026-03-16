@@ -38,6 +38,18 @@ High-performance semantic caching proxy for LLM APIs
 
 ---
 
+### [ML Inference Platform](https://github.com/AmmarHassona/ml-inference-platform)
+Production ML serving system with full observability, drift detection, and automated rollback
+- Serves two ONNX models simultaneously: tabular classifier (RandomForest/GradientBoosting) and sentence embedder (MiniLM) via FastAPI
+- **PSI drift detection** on tabular features and **cosine similarity drift** on text embeddings, both emitting to Prometheus
+- **Shadow mode** runs v2 silently on live traffic; **canary routing** sends 10% of requests to v2 with **automated rollback** if divergence exceeds threshold
+- 9-panel Grafana dashboard auto-provisioned from code; 4 alert rules covering drift, latency SLO, and error rate
+- Load tested at 100 concurrent users: p95 latency 9ms (tabular) / 20ms (text), 0% failures
+
+**Tech:** FastAPI, ONNX Runtime, Prometheus, Grafana, Docker Compose, Locust, scikit-learn, HuggingFace Optimum
+
+---
+
 ### [MultiFusion-Core](https://github.com/AmmarHassona/multifusion-core)
 🎓 **Bachelor's Thesis** – Multimodal emotion recognition for Egyptian Arabic
 - Implemented and evaluated **5 fusion architectures** (early, late, hybrid, attention, transformer) achieving **61.84% test accuracy**
