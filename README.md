@@ -71,6 +71,17 @@ From-scratch implementation of speculative decoding based on Leviathan et al. (2
 
 ---
 
+### [Pressure Test](https://github.com/AmmarHassona/pressure-test)
+Open-source Claude skill that delivers a clear verdict on any decision
+- Forces a **Yes / No / Unclear** verdict instead of a list of considerations
+- Covers career, financial, interpersonal, and work submission decisions
+- Selects from 6 analytical frameworks (Pre-Mortem, Reversibility Test, Cost of Silence, and more) based on decision type
+- Handles pushback: updates verdict if new information is provided, holds it if not
+
+**Type:** Claude Skill (SKILL.md + FRAMEWORKS.md)
+
+---
+
 ### [Orbis](https://github.com/AmmarHassona/orbis)                                                                                                   
 Personal AI chatbot with RAG, web search, and multi-mode conversations
 - Built full-stack app with **streaming chat** (SSE), **session management**, and 5 specialized modes (Health, Fitness, Mental, Study, General)      
