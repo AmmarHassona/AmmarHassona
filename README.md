@@ -50,6 +50,8 @@ Production ML serving system with full observability, drift detection, and autom
 
 ---
 
+<!--
+
 ### [MultiFusion-Core](https://github.com/AmmarHassona/multifusion-core)
 🎓 **Bachelor's Thesis** – Multimodal emotion recognition for Egyptian Arabic
 - Implemented and evaluated **5 fusion architectures** (early, late, hybrid, attention, transformer) achieving **61.84% test accuracy**
@@ -58,6 +60,17 @@ Production ML serving system with full observability, drift detection, and autom
 - Built end-to-end pipeline: Arabic text preprocessing, audio/video feature extraction, training, evaluation
 
 **Tech:** PyTorch, HuggingFace, AraBERT, Wav2Vec2, Swin Transformer, Weights & Biases
+
+-->
+
+  ### [clamp-cc](https://github.com/AmmarHassona/clamp-cc)                                                                                                   
+  A terminal UI that gives Claude Code users fine-grained control over context compaction — instead of letting `/compact` summarize blindly, users tag individual conversation turns and generate targeted compaction instructions that tell Claude exactly what to preserve, focus on, and discard.            
+  - Parses Claude Code's JSONL session files directly (no API), handles sidechains, tool-use blocks, thinking blocks, and UTF-8 content                                                                                             
+  - Six semantic tags (PIN, ARCH, BUG, TASK, API, DROP) with SQLite-backed persistence keyed by content hash so tags survive re-indexing                                                                                        
+  - tmux integration: pane picker sends the `/compact` instruction                           
+    directly to the Claude pane — zero-paste workflow
+    
+  - Published on PyPI, one-line install via `pip install clamp-cc`  
 
 ---
 
