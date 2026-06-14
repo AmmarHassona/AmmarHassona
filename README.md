@@ -46,6 +46,7 @@ SFT · DPO · LoRA · Instruction Tuning · Contrastive Pre-training · Multimod
 |---|---|
 | [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy) | Rust caching proxy for LLM APIs — 4ms cached vs 2.2s live, ~48% cost reduction |
 | [ML Inference Platform](https://github.com/AmmarHassona/ml-inference-platform) | ONNX serving with canary routing, shadow mode, drift detection, and Grafana observability |
+| [trainsafe](https://github.com/AmmarHassona/trainsafe) | HuggingFace/TRL callback for behavioral health checks during fine-tuning — catches language drift, output collapse, repetition loops mid-training |
 | [Speculative Decoding from Scratch](https://github.com/AmmarHassona/speculative-decoding-from-scratch) | PyTorch impl of Leviathan et al. 2022 with acceptance rate benchmarks across model pairs |
 | [clamp-cc](https://github.com/AmmarHassona/clamp-cc) | TUI for fine-grained Claude Code context compaction — tag turns, generate targeted instructions |
 | [TEN-VAD Realtime](https://github.com/AmmarHassona/ten-vad-realtime) | Real-time speech segmentation with WebSocket event streaming built on TenVAD |
