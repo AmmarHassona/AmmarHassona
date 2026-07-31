@@ -3,12 +3,9 @@
 
 ---
 
-I build production ML systems, from fine-tuning open-source LLMs to deploying inference infrastructure.
-Working on fine-tuning SLMs on Arabic conversational data using SFT, DPO, and LoRA,
-with training pipelines orchestrated via Airflow and experiments tracked on W&B.
-Previously built speech processing, TTS, and STT systems for Arabic audio at production scale.
+I build production ML systems, from fine-tuning open-source LLMs to deploying inference infrastructure. Fine-tuned and aligned open-source SLMs on Arabic conversational data using SFT, DPO, and LoRA, with training pipelines and experiments tracked on W&B. Previously built speech processing, TTS, and STT systems for Arabic audio at production scale.
 
-Co-authored the [EGY-MER dataset paper](https://www.researchsquare.com/article/rs-8006895/v1) (Research Square, 2025).
+Co-authored the [EGY-MER dataset paper](https://www.researchsquare.com/article/rs-8006895/v1) — accepted in Language Resources and Evaluation (Springer, 2026) · preprint
 
 ---
 
