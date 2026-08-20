@@ -11,7 +11,7 @@ Co-authored the [EGY-MER dataset paper](https://www.researchsquare.com/article/r
 
 | Contribution | Repo |
 |---|---|
-| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference. Disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) ⭐ ~19.1k |
+| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference. Disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker (~19.1k ⭐) | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) |
 
 ---
 
