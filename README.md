@@ -11,7 +11,7 @@ Co-authored the [EGY-MER dataset paper](https://www.researchsquare.com/article/r
 
 | Contribution | Repo |
 |---|---|
-| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference — disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) ⭐ 18.6k |
+| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference. Disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) ⭐ ~19.1k |
 
 ---
 
@@ -46,7 +46,7 @@ SFT · DPO · LoRA · Instruction Tuning · Contrastive Pre-training · Multimod
 ## 📌 Projects
 
 | Project | Description |
-| [TRL PR #5911](https://github.com/huggingface/trl/pull/5911) | Merged fix to huggingface/trl — AsyncGRPO checkpoint resume triggering unnecessary vLLM inference (18.6k ⭐) |
+| [TRL PR #5911](https://github.com/huggingface/trl/pull/5911) | Merged fix to huggingface/trl — AsyncGRPO checkpoint resume triggering unnecessary vLLM inference (~19.1k ⭐) |
 |---|---|
 | [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy) | Rust caching proxy for LLM APIs — 4ms cached vs 2.2s live, ~48% cost reduction |
 | [ML Inference Platform](https://github.com/AmmarHassona/ml-inference-platform) | ONNX serving with canary routing, shadow mode, drift detection, and Grafana observability |
