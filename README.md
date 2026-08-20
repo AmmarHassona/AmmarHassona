@@ -46,8 +46,8 @@ SFT · DPO · LoRA · Instruction Tuning · Contrastive Pre-training · Multimod
 ## 📌 Projects
 
 | Project | Description |
-| [TRL PR #5911](https://github.com/huggingface/trl/pull/5911) | Merged fix to huggingface/trl — AsyncGRPO checkpoint resume triggering unnecessary vLLM inference (~19.1k ⭐) |
 |---|---|
+| [TRL PR #5911](https://github.com/huggingface/trl/pull/5911) | Merged fix to huggingface/trl — AsyncGRPO checkpoint resume triggering unnecessary vLLM inference (~19.1k ⭐) |
 | [LLM Cache Proxy](https://github.com/AmmarHassona/llm_cache_proxy) | Rust caching proxy for LLM APIs — 4ms cached vs 2.2s live, ~48% cost reduction |
 | [ML Inference Platform](https://github.com/AmmarHassona/ml-inference-platform) | ONNX serving with canary routing, shadow mode, drift detection, and Grafana observability |
 | [trainsafe](https://github.com/AmmarHassona/trainsafe) | HuggingFace/TRL callback for behavioral health checks during fine-tuning — catches language drift, output collapse, repetition loops mid-training |
