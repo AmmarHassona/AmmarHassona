@@ -11,7 +11,8 @@ Co-authored the [EGY-MER dataset paper](https://www.researchsquare.com/article/r
 
 | Contribution | Repo |
 |---|---|
-| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference. Disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker (~19.1k ⭐) | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) |
+| Fixed AsyncGRPO checkpoint resume triggering unnecessary vLLM inference. Disabled incompatible base class skip loop and implemented prompt position tracking in async rollout worker (~19.6k ⭐) | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) |
+| Fixed `read_csv(engine="pyarrow")` silently ignoring `encoding_errors` for bytes input. Added an explicit unsupported-option error instead of silently returning wrong results or raising a misleading `UnicodeDecodeError` (~50.3k ⭐) | [pandas-dev/pandas #71377](https://github.com/pandas-dev/pandas/pull/71377) |
 
 ---
 
