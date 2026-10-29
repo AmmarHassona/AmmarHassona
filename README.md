@@ -11,6 +11,7 @@ I'm an open-source contributor to Hugging Face TRL and pandas, and co-authored t
 
 | Contribution | Repo |
 |---|---|
+| Fixed `binary_cross_entropy` on MPS silently accepting NaN and out-of-range inputs and returning a meaningless loss. Moved the forward pass to Metal kernels that validate every element on the GPU without a CPU sync, as fast or faster than the previous implementation in every benchmarked case except float16 at 1M elements | [pytorch/pytorch #201437](https://github.com/pytorch/pytorch/pull/201437) |
 | Fixed an AsyncGRPO checkpoint-resume bug that caused unnecessary vLLM inference on restart. Added rollout-state persistence and dataset fast-forwarding so resumes pick up exactly where training stopped | [huggingface/trl #5911](https://github.com/huggingface/trl/pull/5911) |
 | Fixed `read_csv(engine="pyarrow")` silently ignoring `encoding_errors` for bytes input. It now raises a clear unsupported-option error instead of returning wrong results or a misleading `UnicodeDecodeError` | [pandas-dev/pandas #71377](https://github.com/pandas-dev/pandas/pull/71377) |
 
