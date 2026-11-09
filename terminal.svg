@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="968" viewBox="0 0 780 968" role="img" aria-label="Terminal window showing Ammar Hassona, AI/ML Engineer: open-source contributions, publication, projects and stack">
+<style>
+text{font-family:SFMono-Regular, Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace;font-size:14px;white-space:pre}
+.b{font-weight:700}
+@keyframes show{from{opacity:0}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.l{animation:show .25s ease both}
+.cur{animation:blink 1s step-end infinite}
+@media (prefers-reduced-motion:reduce){.l,.cur{animation:none}}
+</style>
+<rect x="1" y="1" width="778" height="966" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<path d="M1 11a10 10 0 0 1 10-10h758a10 10 0 0 1 10 10v28H1z" fill="#161b22"/>
+<line x1="1" y1="39" x2="779" y2="39" stroke="#30363d"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="20" r="6" fill="#27c93f"/>
+<text x="390.0" y="25" text-anchor="middle" fill="#8b949e" style="font-size:13px">ammarhassona@github: ~</text>
+<text class="l" x="28" y="64" xml:space="preserve" style="animation-delay:0.20s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+<text class="l" x="28" y="85" xml:space="preserve" style="animation-delay:0.48s"><tspan fill="#e6edf3" class="b">Ammar Hassona</tspan><tspan fill="#8b949e"> · </tspan><tspan fill="#d2a8ff">AI/ML Engineer</tspan></text>
+<text class="l" x="28" y="127" xml:space="preserve" style="animation-delay:0.59s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat about.txt</tspan></text>
+<text class="l" x="28" y="148" xml:space="preserve" style="animation-delay:0.87s"><tspan fill="#e6edf3">I like making things faster and understanding why they work.</tspan></text>
+<text class="l" x="28" y="190" xml:space="preserve" style="animation-delay:0.98s"><tspan fill="#8b949e">I've built LLM systems end to end:</tspan></text>
+<text class="l" x="28" y="211" xml:space="preserve" style="animation-delay:1.09s"><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff">post-training   </tspan><tspan fill="#e6edf3">fine-tuning and aligning open-source models</tspan></text>
+<text class="l" x="28" y="232" xml:space="preserve" style="animation-delay:1.20s"><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff">production      </tspan><tspan fill="#e6edf3">LLM features that run on real customer conversations</tspan></text>
+<text class="l" x="28" y="253" xml:space="preserve" style="animation-delay:1.31s"><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff">reliability     </tspan><tspan fill="#e6edf3">making them hold up on long, messy inputs</tspan></text>
+<text class="l" x="28" y="274" xml:space="preserve" style="animation-delay:1.42s"><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff">speech          </tspan><tspan fill="#e6edf3">Arabic speech systems</tspan></text>
+<text class="l" x="28" y="295" xml:space="preserve" style="animation-delay:1.53s"><tspan fill="#e6edf3">  </tspan><tspan fill="#79c0ff">mentoring       </tspan><tspan fill="#e6edf3">helping others get started with LLM apps</tspan></text>
+<text class="l" x="28" y="337" xml:space="preserve" style="animation-delay:1.64s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">ls -l open-source/</tspan></text>
+<text class="l" x="28" y="358" xml:space="preserve" style="animation-delay:1.92s"><tspan fill="#56d4dd">pytorch/pytorch     </tspan><tspan fill="#ffa657">#201437  </tspan><tspan fill="#8b949e">MPS: validate binary_cross_entropy inputs</tspan></text>
+<text class="l" x="28" y="379" xml:space="preserve" style="animation-delay:2.03s"><tspan fill="#56d4dd">huggingface/trl     </tspan><tspan fill="#ffa657">#5911    </tspan><tspan fill="#8b949e">AsyncGRPO: fix checkpoint resume</tspan></text>
+<text class="l" x="28" y="400" xml:space="preserve" style="animation-delay:2.14s"><tspan fill="#56d4dd">pandas-dev/pandas   </tspan><tspan fill="#ffa657">#71377   </tspan><tspan fill="#8b949e">read_csv: raise on unsupported encoding_errors</tspan></text>
+<text class="l" x="28" y="442" xml:space="preserve" style="animation-delay:2.25s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat publication.txt</tspan></text>
+<text class="l" x="28" y="463" xml:space="preserve" style="animation-delay:2.53s"><tspan fill="#e6edf3">EGY-MER: Establishing The First Egyptian Arabic Multimodal</tspan></text>
+<text class="l" x="28" y="484" xml:space="preserve" style="animation-delay:2.64s"><tspan fill="#e6edf3">Emotion Recognition Dataset for Affective Computing</tspan></text>
+<text class="l" x="28" y="505" xml:space="preserve" style="animation-delay:2.75s"><tspan fill="#8b949e">co-author · </tspan><tspan fill="#d2a8ff">Language Resources and Evaluation</tspan><tspan fill="#8b949e"> (Springer, 2026)</tspan></text>
+<text class="l" x="28" y="547" xml:space="preserve" style="animation-delay:2.86s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">ls projects/</tspan></text>
+<text class="l" x="28" y="568" xml:space="preserve" style="animation-delay:3.14s"><tspan fill="#56d4dd">speculative-decoding-from-scratch/    </tspan><tspan fill="#8b949e">Leviathan et al. 2022, in PyTorch</tspan></text>
+<text class="l" x="28" y="589" xml:space="preserve" style="animation-delay:3.25s"><tspan fill="#56d4dd">trainsafe/                            </tspan><tspan fill="#8b949e">health checks for TRL fine-tuning runs</tspan></text>
+<text class="l" x="28" y="610" xml:space="preserve" style="animation-delay:3.36s"><tspan fill="#56d4dd">llm_cache_proxy/                      </tspan><tspan fill="#8b949e">Rust cache for LLM APIs, 4ms vs 2.2s</tspan></text>
+<text class="l" x="28" y="631" xml:space="preserve" style="animation-delay:3.47s"><tspan fill="#56d4dd">ml-inference-platform/                </tspan><tspan fill="#8b949e">ONNX serving, canary, drift detection</tspan></text>
+<text class="l" x="28" y="673" xml:space="preserve" style="animation-delay:3.58s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat stack.txt</tspan></text>
+<text class="l" x="28" y="694" xml:space="preserve" style="animation-delay:3.86s"><tspan fill="#ffa657">languages   </tspan><tspan fill="#e6edf3">Python, Rust, SQL</tspan></text>
+<text class="l" x="28" y="715" xml:space="preserve" style="animation-delay:3.97s"><tspan fill="#ffa657">ml          </tspan><tspan fill="#e6edf3">PyTorch, Hugging Face, ONNX, Weights &amp; Biases</tspan></text>
+<text class="l" x="28" y="736" xml:space="preserve" style="animation-delay:4.08s"><tspan fill="#ffa657">training    </tspan><tspan fill="#e6edf3">SFT, DPO, LoRA</tspan></text>
+<text class="l" x="28" y="757" xml:space="preserve" style="animation-delay:4.19s"><tspan fill="#ffa657">speech      </tspan><tspan fill="#e6edf3">ASR, TTS, VAD, speaker diarization</tspan></text>
+<text class="l" x="28" y="778" xml:space="preserve" style="animation-delay:4.30s"><tspan fill="#ffa657">infra       </tspan><tspan fill="#e6edf3">FastAPI, Docker, Airflow, Kafka, Grafana, AWS, Runpod</tspan></text>
+<text class="l" x="28" y="799" xml:space="preserve" style="animation-delay:4.41s"><tspan fill="#ffa657">data        </tspan><tspan fill="#e6edf3">PostgreSQL, Redis, Qdrant</tspan></text>
+<text class="l" x="28" y="841" xml:space="preserve" style="animation-delay:4.52s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan><tspan fill="#e6edf3">cat currently.txt</tspan></text>
+<text class="l" x="28" y="862" xml:space="preserve" style="animation-delay:4.80s"><tspan fill="#ff7b72">learning </tspan><tspan fill="#e6edf3">GPU kernel programming and low-level optimization</tspan></text>
+<text class="l" x="28" y="883" xml:space="preserve" style="animation-delay:4.91s"><tspan fill="#ff7b72">contributing to </tspan><tspan fill="#e6edf3">open-source ML infrastructure</tspan></text>
+<text class="l" x="28" y="925" xml:space="preserve" style="animation-delay:5.02s"><tspan fill="#7ee787">ammarhassona</tspan><tspan fill="#8b949e">@</tspan><tspan fill="#79c0ff">github</tspan><tspan fill="#8b949e">:~$ </tspan></text>
+<rect class="cur" x="221.2" y="913" width="8" height="16" fill="#e6edf3" style="animation-delay:5.30s"/>
+</svg>
